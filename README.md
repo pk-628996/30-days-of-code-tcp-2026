@@ -6,5 +6,5 @@
 ---
 
 ### Day1
-
+[Live](https://pk-628996.github.io/30-days-of-code-tcp-2026/day1/index.html)
 ![Solution Screenshot](images/day1.jpg)
