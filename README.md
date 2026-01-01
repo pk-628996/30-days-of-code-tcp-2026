@@ -5,3 +5,6 @@
 - Roll No.: 25120069
 ---
 
+### Day1
+
+![Solution Screenshot](images/day1.jpg)
