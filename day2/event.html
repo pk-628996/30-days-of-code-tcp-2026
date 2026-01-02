@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title> Event Schedule & Registration Form</title>
+</head>
+<body>
+    <section>
+    <h3>Event Schedule:</h3>
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <td>Time</td>
+                <td>Activity</td>
+                <td>Venue</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10:00AM - 11:00AM</td>
+                <td>Frontend Workshop</td>
+                <td>Online(Link Will be Shared through Email.)</td>
+            </tr>
+            <tr>
+                <td>11:15AM - 12:15PM</td>
+                <td>Backend</td>
+                <td>Online(Link Will be Shared through Email.)</td>
+            </tr>
+            <tr>
+                <td>12:30PM - 01:30PM</td>
+                <td>UI/UX Design</td>
+                <td>Online(Link Will be Shared through Email.)</td>
+            </tr>
+        </tbody>
+    </table></section><br />
+    <h3> Register For The Event.</h3>
+    <section>
+        <form action="Hello.php" method="POST">
+            <div>
+                <label for="name">Name: </label><br />
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div><br/>
+            <div>
+                <label for="email">Email: </label><br />
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div><br/>
+            <div>
+                <label for="mob_no">Mob No.: </label><br />
+                <input type="number" id="mob_no" name="mob_no" placeholder="Mob No." required>
+            </div><br/>
+            <div>
+                <label for="date">Preferred Date: </label><br />
+                <input type="date" id="date" name="date" required>
+            </div><br/>
+            <div>
+                <label>Select Ticket Type:</label>
+                <input type="radio" id="standard" name="ticket_type" value="standard" >
+                <label for="standard">Standard</label>
+                <input type="radio" id="vip" name="ticket_type" value="vip" >
+                <label for="vip">VIP</label>
+                <input type="radio" id="guest" name="ticket_type" value="guest" >
+                <label for="guest">Guest</label>
+            </div><br/><br/>
+            <div>
+                <label>Select Workshop preferences:</label>
+                <input type="checkbox" id="front_end" name="workshop_pref" value="front_end" >
+                <label for="front_end">FrontEnd</label>
+                <input type="checkbox" id="back_end" name="workshop_pref" value="back_end" >
+                <label for="back_end">Backend</label>
+                <input type="checkbox" id="uiux" name="workshop_pref" value="uiux" >
+                <label for="uiux">UI/UX</label>
+            </div><br/><br/>
+            <div>
+                <label for="comments">Suggestions/Comments:</label><br/><br/>
+                <textarea  id="comments" name="comments" rows="10" cols="50" placeholder="Any Suggestion or Comment goes here..."></textarea>
+            </div>
+            <div>
+                <button type="submit">Register Now &rarr;</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
