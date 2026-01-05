@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.querySelector("#hero_content").innerHTML = html
                 
             } else if (isTie()) {
-                let html = `<div id="win_popup"><p>Its a Tie!!! RESET Game</p></div>`
+                let html = `<div id="win_popup"><p>Its a Tie!!!</p></div>`
                 document.querySelector("#hero_content").innerHTML = html
             }
         });
