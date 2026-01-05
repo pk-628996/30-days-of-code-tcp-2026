@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const cross = "images/cross.png";
-    const O_shunya = "images/O_shunya.png";
+    const cross = "cross.png";
+    const O_shunya = "O_shunya.png";
 
     const matrix = [
         [null, null, null],
