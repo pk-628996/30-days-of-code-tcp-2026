@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return null;
     };
 
-    // New logic to check if the board is full
     const isTie = () => {
         return matrix.every(row => row.every(cell => cell !== null));
     };
