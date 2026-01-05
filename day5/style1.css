@@ -55,6 +55,7 @@ a:hover {
     display: inline-block;
     padding: 5%;
     font-size: 3rem;
+    color: var(--accent-color);
     margin-top:5%;
 }
 .hero {
@@ -79,9 +80,6 @@ a:hover {
     height: 23%;
     width: 30%;
     background-color: var(--accent-color);
-    /*background-image: url("https://cdn-icons-png.flaticon.com/128/594/594598.png");
-    background-repeat: no-repeat;
-    background-size: cover;*/
     border-radius: 10px;
 }
 
@@ -142,4 +140,5 @@ li {
 footer {
     display: flex;
     justify-content: center;
+    color: var(--accent-color);
 }
