@@ -13,5 +13,14 @@
 [Live](https://pk-628996.github.io/30-days-of-code-tcp-2026/day2/event.html)
 ![Solution Screenshot](images/day2.jpg)
 
+### Day3
+[Live](https://pk-628996.github.io/30-days-of-code-tcp-2026/day3/index.html)
+![Solution Screenshot](images/day3.jpg)
+
 ### Day4
-[Live]
+[Live](https://pk-628996.github.io/30-days-of-code-tcp-2026/day4/landing.html)
+![Solution Screenshot](images/day4.jpg)
+
+### Day5
+[Live](https://pk-628996.github.io/30-days-of-code-tcp-2026/day5/tic_tac_toe.html)
+![Solution Screenshot](images/day5.png)
